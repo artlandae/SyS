@@ -406,6 +406,33 @@ grid <span class="string">on</span>;
 % 
 % <<Ej_64_15a.jpg>>
 %
+%% Ejemplo 6.5
+%
+% Función:
+%
+% $x(t)=e^{-\frac{t}{2}}$
+%
+% con:  $T_0=\pi \qquad \omega_0=\frac{2\pi}{T_0}=2\frac{rad}{s}$
+%
+% Coeficientes exponenciales
+%
+% $D_0=a_0=0.504$
+%
+% $D_n=\frac{1}{\pi}\int_{0}^{\pi}e^{-\frac{t}{2}}e^{-2njt}\;dt=-\frac{2}{\pi}(e^{-\frac{\pi}{2}}-1)\frac{1}{1+4nj}=0.5042\frac{1}{1+4nj}$
+%
+% Serie de fourier exponencial compleja
+%
+% $x(t)=0.504\sum_{-\infty}^{\infty}\frac{0.504}{1+4nj}e^{2njt}$
+%
+% Luego con estos datos procedemos a utilizar la función del Apéndice A con 4
+% armónicos y el resultado es el siguiente: 
+%
+% <<Ej_61_4a.jpg>>
+%
+% y ahora con 15 armónicos:
+% 
+% <<Ej_61_15a.jpg>>
+%
 %% Ejemplo 6.7
 % 
 % Función: 
